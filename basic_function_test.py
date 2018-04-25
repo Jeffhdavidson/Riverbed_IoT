@@ -5,19 +5,19 @@ from function import upload
 import uuid
 
 print('Please Enter username')
-user = input()
+user = raw_input()
 
 # make a random UUID
 ID = uuid.uuid4()
 
 print('Please Enter Moisture')
-Moisture = input()
+Moisture = raw_input()
 
 print('Please Enter Temperature')
-temp = input()
+temp = raw_input()
 
 print('Please Enter Humidity')
-humidity = input()
+humidity = raw_input()
 
 returncode = upload(user,ID,Moisture,temp,humidity)
 
