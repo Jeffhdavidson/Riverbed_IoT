@@ -32,6 +32,8 @@ Download the code and start building:
 Validate your data uploaded:
 
     http://40.70.0.179:8080/sensor/
+    GUI
+    http://13.91.243.124:3000/sensor
 
 REFERENCE..........
 
